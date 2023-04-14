@@ -1,0 +1,94 @@
+.nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+	color: #000;
+	background-color: #fff;
+}
+
+.wrapper {
+	border-bottom: 1px solid #000;
+	width: 95%;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+	padding: 0 1em;
+}
+
+.navbar__logo {
+	transition: transform 0.3s;
+}
+
+.navbar__logo:hover {
+	transform: scale(1.05);
+}
+
+.navbar__logo-title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3rem;
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+
+.navbar__box {
+	display: flex;
+	gap: 0.5em;
+}
+
+.navbar__list {
+	display: flex;
+	list-style: none;
+}
+
+.navbar__list-item {
+	padding: 0.5em;
+	cursor: pointer;
+	transition: color 0.3s;
+}
+
+.navbar__list-link {
+	display: none;
+	padding-left: 0.3em;
+	color: #000;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+.navbar__icon {
+	font-size: 2rem;
+}
+
+.navbar__list-item:hover,
+.navbar__list-item:hover .navbar__list-link {
+	color: #5eb25e;
+}
+@media (min-width: 460px) {
+	.navbar__list-item {
+		padding: 0.5em 1em;
+	}
+}
+@media (min-width: 768px) {
+	.navbar__list {
+		gap: 0.5em;
+	}
+	.navbar__list-link {
+		display: inline-block;
+	}
+	.navbar__icon {
+		font-size: 1.6rem;
+	}
+
+	.navbar__list-item {
+		padding: 0.5em;
+	}
+	.navbar__box {
+		gap: 0;
+	}
+}
