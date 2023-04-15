@@ -1,0 +1,54 @@
+.offer__item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	border-radius: 5px;
+	border: 1px solid rgb(226, 232, 234);
+	text-align: center;
+	cursor: pointer;
+	transition: transform 0.3s;
+}
+
+.offer__item:hover {
+	transform: scale(0.95);
+}
+
+.offer__item small {
+	color: #414658;
+}
+
+.offer__box-price del {
+	margin-right: 1em;
+}
+
+.offer__item-h3,
+.offer__item-price {
+	color: #0e1633;
+}
+
+.offer__item-price {
+	margin: 1em 0 0.5em;
+}
+
+.offer__box-img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60%;
+	width: 100%;
+	padding: 0.5em;
+}
+
+.offer__img {
+	width: 80%;
+	height: 100%;
+	object-fit: contain;
+}
+
+@media (max-width: 767px) {
+	.offer__item {
+		padding-bottom: 1em;
+	}
+}
