@@ -8,12 +8,12 @@ const OfferProducts = props => {
 			{products.map(product => (
 				<OfferItem
 					key={product.id}
+					id={product.id}
 					img={product.imgDevice}
 					alt={product.alt}
 					typeOfEquipment={product.typeOfEquipment}
 					nameOfEquipment={product.nameOfEquipment}
 					price={product.price}
-
 					onProduct={props.onProduct}
 					onshowSummaryHandler={props.onshowSummaryHandler}></OfferItem>
 			))}
