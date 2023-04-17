@@ -49,13 +49,13 @@
 	color: #fff;
 	border: 1px solid rgb(226, 232, 234);
 	border-radius: 8px;
-	background-color: #478747;
+	background-color: #0072bc;
 	cursor: pointer;
 	transition: background-color 0.3s;
 }
 
 .modal__button:hover {
-	background-color: #407840;
+	background-color: #025f9e;
 }
 
 @media (min-width: 540px) {
@@ -79,16 +79,6 @@
 		max-width: none;
 		margin-top: 2em;
 		padding: 0.7em 1em;
-		color: #fff;
-		border: 1px solid rgb(226, 232, 234);
-		border-radius: 8px;
-		background-color: #0072bc;
-		cursor: pointer;
-		transition: background-color 0.3s;
-	}
-
-	.modal__button:hover {
-		background-color: #025f9e;
 	}
 }
 
