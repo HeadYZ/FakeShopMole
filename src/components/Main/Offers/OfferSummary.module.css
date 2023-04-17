@@ -82,13 +82,13 @@
 		color: #fff;
 		border: 1px solid rgb(226, 232, 234);
 		border-radius: 8px;
-		background-color: #478747;
+		background-color: #0072bc;
 		cursor: pointer;
 		transition: background-color 0.3s;
 	}
 
 	.modal__button:hover {
-		background-color: #407840;
+		background-color: #025f9e;
 	}
 }
 
