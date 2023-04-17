@@ -20,6 +20,7 @@ const OfferMain = props => {
 			{DUMMY_ARRAY.map(product => (
 				<OfferItem
 					key={product.id}
+					id={product.id}
 					img={product.imgDevice}
 					alt={product.alt}
 					typeOfEquipment={product.typeOfEquipment}
