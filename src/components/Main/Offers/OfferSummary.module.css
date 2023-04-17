@@ -45,7 +45,7 @@
 	width: 100%;
 	max-width: 200px;
 	margin: 2em auto 0;
-	padding: 0.5em 1em;
+	padding: 0.7em 1em;
 	color: #fff;
 	border: 1px solid rgb(226, 232, 234);
 	border-radius: 8px;
@@ -78,7 +78,6 @@
 		width: 50%;
 		max-width: none;
 		margin-top: 2em;
-		padding: 0.7em 1em;
 	}
 }
 
