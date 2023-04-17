@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/FakeShopMole/static/css/main.2e6b9d02.css",
+    "main.js": "/FakeShopMole/static/js/main.3b34b309.js",
+    "static/media/kitchen-big.jpg": "/FakeShopMole/static/media/kitchen-big.53e5f27e6631db46c262.jpg",
+    "static/media/child-big.jpg": "/FakeShopMole/static/media/child-big.358a0f0149e7444b47ab.jpg",
+    "static/media/girl-big.jpg": "/FakeShopMole/static/media/girl-big.fdc30eac9e4e16572a2b.jpg",
+    "static/media/camera.png": "/FakeShopMole/static/media/camera.a3997234770733018003.png",
+    "static/media/playstation_controller.png": "/FakeShopMole/static/media/playstation_controller.451bc5955377fb9d87b8.png",
+    "static/media/keyboard.png": "/FakeShopMole/static/media/keyboard.da0ec5f8832a76ef86e0.png",
+    "static/media/monitor.png": "/FakeShopMole/static/media/monitor.9e5c311f9efabe81d91d.png",
+    "static/media/laptop-.png": "/FakeShopMole/static/media/laptop-.ca772a4ca364a541de8e.png",
+    "static/media/iphone-13-pro-max-7173413_640.jpg": "/FakeShopMole/static/media/iphone-13-pro-max-7173413_640.0f939aced277251ab05d.jpg",
+    "index.html": "/FakeShopMole/index.html",
+    "main.2e6b9d02.css.map": "/FakeShopMole/static/css/main.2e6b9d02.css.map",
+    "main.3b34b309.js.map": "/FakeShopMole/static/js/main.3b34b309.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e6b9d02.css",
+    "static/js/main.3b34b309.js"
+  ]
+}
