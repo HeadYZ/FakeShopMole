@@ -1,0 +1,17 @@
+.header__slider {
+	position: absolute;
+	width: 100%;
+	opacity: 0;
+	transition: transform 1s, opacity 1s;
+}
+
+.header__slider.activeSlide {
+	opacity: 1;
+	transform: translateX(0);
+}
+.header__slider.lastSlide {
+	transform: translateX(-100%);
+}
+.header__slider.nextSlide {
+	transform: translateX(100%);
+}
