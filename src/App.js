@@ -1,26 +1,31 @@
 import { Fragment, useState } from 'react'
 import Header from './components/Header/Header'
 import Navigation from './components/Navigation/Navigation'
-import Modal from './components/UI/Modal'
 import Main from './components/Main/Main'
+import CartSummary from './components/Navigation/CartSummary'
+import CartProvider from './components/store/CartProvider'
 
 function App() {
-	const [isModal, setIsModal] = useState(false)
+	const [isShow, setIsShow] = useState(false)
 
 	const showModalHandler = () => {
-		setIsModal(true)
+		setIsShow(true)
 	}
 	const hideModalHandler = () => {
-		setIsModal(false)
+		setIsShow(false)
 	}
 
 	return (
-		<Fragment>
-			{isModal && <Modal onHide={hideModalHandler} />}
-			<Navigation />
-			<Header />
-			<Main onShow={showModalHandler} />
-		</Fragment>
+		<CartProvider>
+			<Navigation onClick={showModalHandler} />
+			{isShow && <CartSummary onClick={hideModalHandler} />}
+			{!isShow && (
+				<Fragment>
+					<Header />
+					<Main />
+				</Fragment>
+			)}
+		</CartProvider>
 	)
 }
 
