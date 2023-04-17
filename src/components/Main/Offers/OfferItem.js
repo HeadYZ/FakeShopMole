@@ -6,6 +6,7 @@ const OfferItem = props => {
 			alt: props.alt,
 			nameOfEquipment: props.nameOfEquipment,
 			price: props.price,
+			id: props.id,
 		}
 		props.onshowSummaryHandler()
 		props.onProduct(product)
